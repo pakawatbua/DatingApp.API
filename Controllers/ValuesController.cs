@@ -35,6 +35,7 @@ namespace DatingApp.API.Controllers
             var value = await _context.Values.FirstOrDefaultAsync(x => x.Id == id);
 
             return Ok(value);
+            
         }
 
         // POST api/values
